@@ -1,4 +1,4 @@
-# node-process-timer
+# nodejs-process-timer
 
 A utility for timing processes in Node.js. It is based entirely on Node's [`process.hrtime`](https://nodejs.org/api/process.html#process_process_hrtime_time) and has no dependencies.
 
