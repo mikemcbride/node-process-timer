@@ -9,13 +9,13 @@ Sometimes it's pretty helpful to be able to measure how long processes are takin
 ## Installation
 
 ```
-npm install --save @mikemcbride/process-timer
+npm install --save nodejs-process-timer
 ```
 
 ## Usage
 
 ```js
-const Timer = require('@mikemcbride/process-timer')
+const Timer = require('nodejs-process-timer')
 
 const timer = new Timer()
 timer.start()
@@ -36,7 +36,7 @@ console.log(`Diff in ms is ${timer.diff}`)
 You can reuse the timer instance you create. Calling `.start()` will reset the times, so if you need to compute multiple times on something you can do that:
 
 ```js
-const Timer = require('@mikemcbride/process-timer')
+const Timer = require('nodejs-process-timer')
 
 // first operation
 const timer = new Timer().start()
@@ -56,7 +56,7 @@ console.log(timer.diff)
 You can also use the timer to compute intervals on a process if you need to know how long each piece takes from the beginning of the operation:
 
 ```js
-const Timer = require('@mikemcbride/process-timer')
+const Timer = require('nodejs-process-timer')
 const timer = new Timer()
 
 // start of the operation

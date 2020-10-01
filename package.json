@@ -1,5 +1,5 @@
 {
-  "name": "@mikemcbride/process-timer",
+  "name": "nodejs-process-timer",
   "version": "1.0.0",
   "description": "A utility class for timing processes in Node with no external dependencies",
   "main": "index.js",
