@@ -1,0 +1,28 @@
+{
+  "name": "@mikemcbride/process-timer",
+  "version": "1.0.0",
+  "description": "A utility class for timing processes in Node with no external dependencies",
+  "main": "index.js",
+  "scripts": {
+    "test": "uvu"
+  },
+  "files": ["index.js"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikemcbride/node-process-timer.git"
+  },
+  "keywords": [
+    "node",
+    "process",
+    "timer"
+  ],
+  "author": "mikemcbride",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikemcbride/node-process-timer/issues"
+  },
+  "homepage": "https://github.com/mikemcbride/node-process-timer#readme",
+  "devDependencies": {
+    "uvu": "^0.3.3"
+  }
+}
